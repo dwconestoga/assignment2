@@ -1,0 +1,94 @@
+<!--Dharma Witt 8954386-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elon Musk Website</title>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+
+<body>
+    <header>
+        <h1>Elon Musk</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">Biography</a>
+            </li>
+            <li>
+                <a href="">Media</a>
+
+                <ul>
+                    <li>
+                        <a href="photos.html">Photos</a>
+                        
+                        <a href="videos.html">Videos</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <section class="mainaside">
+        <main>
+            <form class="form1" method="post">
+                <fieldset>
+                    <legend>Contact us</legend>
+                    <label for="firstname">First Name:</label>
+                    <input type="text" name="firstname" id="firstname">
+    
+                    <label for="lastname">Last Name:</label>
+                    <input type="text" name="lastname" id="lastname">
+    
+                    <label for="age">Age:</label>
+                    <input type="number" min="0" max="120">
+    
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" required autocomplete="off">
+    
+                    <label for="password">Password:</label>
+                    <input name="password" id="password" type="password" required autocomplete="off">
+    
+                    <label for="country">Country:</label>
+                    <select name="country">
+                        <option value="unitedstates">United States</option>
+                        <option value="canada" selected>Canada</option>
+                        <option value="china">China</option>
+                        <option value="france">France</option>
+                        <option value="japan">Japan</option>
+                    </select>
+    
+                    <section>
+                        <input type="reset" value="Clear all">
+                        <input type="submit" value="Submit">
+                    </section>  
+                </fieldset>
+            </form>
+        </main>
+    
+        <aside>
+            <h2>Additional Information</h2>
+            <ul>
+                <li><a href="https://www.forbes.com/profile/elon-musk/?sh=13350f9f7999" target="_blank">Elon Musk Forbes</a></li>
+                <li><a href="https://www.tesla.com/en_ca/elon-musk" target="_blank">Elon Musk Tesla Website</a></li>
+                <li><a href="https://www.spacex.com/" target="_blank">SpaceX</a></li>
+                <li><a href="https://twitter.com/elonmusk" target="_blank">Elon Musk Twitter</a></li>
+    
+            </ul>
+        </aside>
+    </section>
+    
+
+    <footer>
+        <p>&copy;Dharma 2023</p>
+    </footer>
+    
+</body>
+</html>
